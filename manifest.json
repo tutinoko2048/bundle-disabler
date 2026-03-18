@@ -1,8 +1,8 @@
 {
 	"format_version": 3,
 	"header": {
-		"name": "bundle-disabler-beh",
-		"description": "bundle-disabler-beh",
+		"name": "Bundle Disabler",
+		"description": "バンドルを無効化するアドオンです",
 		"uuid": "9fb1e812-27c7-4982-b911-9f1f8dac4f77",
 		"version": "0.1.0",
 		"min_engine_version": "1.26.3"
