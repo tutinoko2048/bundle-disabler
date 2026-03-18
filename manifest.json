@@ -1,0 +1,61 @@
+{
+	"format_version": 3,
+	"header": {
+		"name": "bundle-disabler-beh",
+		"description": "bundle-disabler-beh",
+		"uuid": "9fb1e812-27c7-4982-b911-9f1f8dac4f77",
+		"version": "0.1.0",
+		"min_engine_version": "1.26.3"
+	},
+	"settings": [
+		{
+			"name": "tn:radius",
+			"text": "半径何ブロックを対象にするか",
+			"type": "slider",
+			"min": 4,
+			"max": 20,
+			"default": 6,
+			"step": 1
+		},
+		{
+			"name": "tn:check_interval",
+			"text": "何tickごとにチェックするか (更新には再起動が必要です)",
+			"type": "slider",
+			"min": 0,
+			"max": 60,
+			"default": 0,
+			"step": 1
+		}
+	],
+	"metadata": {
+		"authors": [
+			"YOUR NAME HERE"
+		],
+		"url": "https://example.com/your-project",
+		"generated_with": {
+			"nano191225-scriptup": [
+				"1.3.3"
+			]
+		}
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "e993b0c3-d32b-469f-ad5e-ef9baf043528",
+			"version": "0.1.0"
+		},
+		{
+			"type": "script",
+			"uuid": "689cadc2-5cf1-4892-b45a-bce45a77f49e",
+			"version": "0.1.0",
+			"language": "javascript",
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "beta"
+		}
+	]
+}

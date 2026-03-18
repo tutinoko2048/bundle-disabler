@@ -1,0 +1,17 @@
+{
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "module": "es2022",
+    "target": "es2024",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "noLib": true,
+    "types": [
+      "@bedrock-apis/env-types"
+    ],
+    "noEmit": true
+  }
+}
